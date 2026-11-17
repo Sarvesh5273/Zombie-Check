@@ -60,7 +60,7 @@ python3 scripts/verify_export.py --input examples/jobs-500.csv \
 
 Show the untouched 500-row input and mappings, actual completed ledger, row evidence, clean CSV export, and saved 490→500 resume comparison. The walkthrough represents a recorded audit, not a fabricated live run.
 
-## Exact LinkedIn draft — approval required before posting
+## Approved LinkedIn copy — awaiting publication
 
 I built Zombie Check for the TinyFish bounty.
 
@@ -76,7 +76,7 @@ Code, audited CSV and proof: https://github.com/Sarvesh5273/Zombie-Check
 
 Tag the actual TinyFish company page when posting: https://www.linkedin.com/company/tinyfish-ai/
 
-## Exact Discord #showcase draft — approval required before sending
+## Approved Discord #showcase copy — awaiting publication
 
 **Zombie Check — live evidence for an old spreadsheet**
 
@@ -90,6 +90,8 @@ Includes audited CSV, full evidence, run/export reports, real 490→500 resume p
 
 Limits: Greenhouse posting adapter;90-day age is a caution heuristic. Public posting/intake health cannot prove funded vacancies, recruiter intent or successful submissions.
 
+The user chose to handle public posts and final submission manually. Approval is recorded; no agent publication will be attempted.
+
 ## Submission checklist
 
 - [x] Real 500-row completed CSV and original-preservation proof.
@@ -98,9 +100,12 @@ Limits: Greenhouse posting adapter;90-day age is a caution heuristic. Public pos
 - [x] Meaningful TinySet role and endpoint scope disclosed.
 - [x] Budget below the chosen $5 ceiling, recorded as conservative allocations.
 - [x] Repository publication and walkthrough verified.
-- [ ] User confirms individual/program eligibility and one submission per bounty.
-- [ ] Exact LinkedIn copy approved/published with TinyFish tag.
-- [ ] Exact Discord copy approved/shared to #showcase.
-- [ ] Final bounty submission approved/sent and receipt verified.
+- [x] User confirmed individual/program eligibility and one submission per bounty.
+- [x] Exact LinkedIn copy approved.
+- [ ] Published with the TinyFish tag; public link recorded.
+- [x] Exact Discord copy approved.
+- [ ] Shared to #showcase; receipt recorded.
+- [x] Final bounty entry approved.
+- [ ] Entry sent and receipt verified.
 
 The local report's submission_ready field means data gates passed. Social and final submission obligations remain separate.

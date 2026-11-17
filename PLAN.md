@@ -19,7 +19,7 @@ Complete the stated Zombie Check spreadsheet/API bounty, demonstrate 500 real ro
 | 7. Independent review | All 500 IDs/employers/intake fields/dates reconciled; locale, closure-scope and date-example bugs fixed | Complete; source review saved |
 | 8. Generality check | Real two-row Figma input, custom headings, derived native IDs/API/feed, no unresolved rows | Complete |
 | 9. Package and public build | Source, README, real CSV/evidence/reports, walkthrough and GitHub publication | Complete; public repository and recorded walkthrough verified |
-| 10. Final submission | Exact LinkedIn/Discord drafts approved and posted; final bounty submission reviewed and sent | Pending user approval |
+| 10. Final submission | Exact LinkedIn/Discord drafts approved and posted; final bounty submission reviewed and sent | Approved; user handling posts/submission manually |
 
 ## Requirement mapping
 
@@ -63,8 +63,10 @@ TinySet researches three employers once, not 500 unique vacancies. This is meani
 
 ## Final outstanding work
 
-1. Obtain approval of exact LinkedIn and Discord copy. No outbound posts are authorized yet.
-2. Confirm individual/program eligibility and the final bounty entry.
-3. Post the approved copy, send the final entry and verify receipts.
+1. User publishes the approved LinkedIn and Discord copies.
+2. User sends the final bounty entry and saves the receipt.
+3. Copy-ready text and instructions are in docs/SUBMIT_NOW.md. The user explicitly chose manual publication/submission.
+
+The user approved both public drafts and the final entry on November 17, 2026, and confirmed program membership and the individual/one-entry rule. Nothing has been posted or submitted yet.
 
 Remote repository inspected: empty, default main, public, authenticated push access. Publishing will initialize its main branch; no existing code needs replacement.

@@ -1,0 +1,11 @@
+**Zombie Check — live evidence for an old spreadsheet**
+
+Build and proof: https://github.com/Sarvesh5273/Zombie-Check
+
+500 distinct official job postings audited: 340 alive, 160 slowing down, 0 unresolved. Original cells/order preserved; five signal categories checked and at least four verified observations per row.
+
+TinySet researches 3 employers once and shares verified context across their jobs. Exact posting availability/intake are checked independently. Search, Fetch, Agent and Browser contribute to source discovery, verification and difficult forms.
+
+Includes audited CSV, full evidence, run/export reports, real 490→500 resume proof, and an independently mapped Figma pilot.
+
+Limits: Greenhouse posting adapter;90-day age is a caution heuristic. Public posting/intake health cannot prove funded vacancies, recruiter intent or successful submissions.

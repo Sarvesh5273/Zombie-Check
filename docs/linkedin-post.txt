@@ -1,0 +1,11 @@
+I built Zombie Check for the TinyFish bounty.
+
+It takes a company or job CSV, checks live sources, and returns the original spreadsheet with verdicts, dates and evidence links.
+
+The real demo audits 500 distinct official job posts: 340 alive and 160 slowing down, with no unresolved rows. “Slowing down” is a disclosed 90-day posting-age caution, not proof of a ghost vacancy.
+
+TinySet researches each employer once; its sourced context is joined to the jobs while each posting and application configuration is checked separately. TinySearch and TinyFetch verify official sources; TinyAgent and TinyBrowser inspect difficult public forms without submitting anything.
+
+The strongest part was recovery and evidence:490 completed results stayed unchanged when the remaining ten finished, and independent review reconciled all 500 posting IDs, employers, intake fields and dates.
+
+Code, audited CSV and proof: https://github.com/Sarvesh5273/Zombie-Check
