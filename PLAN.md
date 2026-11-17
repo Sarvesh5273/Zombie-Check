@@ -18,7 +18,7 @@ Complete the stated Zombie Check spreadsheet/API bounty, demonstrate 500 real ro
 | 6. Live 500-row proof | 500 distinct jobs, 340 alive/160 slowing, zero unresolved; five checks and at least four verified observations each | Complete |
 | 7. Independent review | All 500 IDs/employers/intake fields/dates reconciled; locale, closure-scope and date-example bugs fixed | Complete; source review saved |
 | 8. Generality check | Real two-row Figma input, custom headings, derived native IDs/API/feed, no unresolved rows | Complete |
-| 9. Package and public build | Source, README, real CSV/evidence/reports, walkthrough and GitHub publication | In progress |
+| 9. Package and public build | Source, README, real CSV/evidence/reports, walkthrough and GitHub publication | Complete; public repository and recorded walkthrough verified |
 | 10. Final submission | Exact LinkedIn/Discord drafts approved and posted; final bounty submission reviewed and sent | Pending user approval |
 
 ## Requirement mapping
@@ -63,9 +63,8 @@ TinySet researches three employers once, not 500 unique vacancies. This is meani
 
 ## Final outstanding work
 
-1. Finish/publish the reviewed package to the user-provided public repository: Sarvesh5273/Zombie-Check.
-2. Complete the local recorded walkthrough and include its source.
-3. Obtain approval of exact LinkedIn and Discord copy. No outbound posts are authorized yet.
-4. Review and send the final bounty submission; verify it landed.
+1. Obtain approval of exact LinkedIn and Discord copy. No outbound posts are authorized yet.
+2. Confirm individual/program eligibility and the final bounty entry.
+3. Post the approved copy, send the final entry and verify receipts.
 
 Remote repository inspected: empty, default main, public, authenticated push access. Publishing will initialize its main branch; no existing code needs replacement.

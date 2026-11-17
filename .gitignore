@@ -11,4 +11,8 @@ artifacts/private/
 demo/.hyperframes/
 demo/AGENTS.md
 demo/CLAUDE.md
+demo/.thumbnails/
+demo/.waveform-cache/
+demo/*.log
+demo/preview.json
 

@@ -102,6 +102,8 @@ def _inspect_intake(engine,audit_id,row_id,method='browser',run_id=None):
         signal=result['signals']['signup']
         signal.update(verified=True,status='active',method='tiny'+method,observation_scope='Visible intake controls; no submission',
                       note=state['note'],url=url)
+        fields=observed.get('application_fields') if method=='agent' else observed.get('fields')
+        signal.update(quote=json.dumps({'posting_id':expected_id or None,'field_labels':[f.get('label') or f.get('name') or f.get('type') for f in (fields or []) if isinstance(f,dict)][:8]},ensure_ascii=False),quote_format='extracted_fields')
     store.row_update(audit_id,row_id,result=result)
     store.event(audit_id,'intake_inspection',row_id+' '+method+': '+('verified exact visible controls' if verified else 'inconclusive inspection'))
     return state

@@ -1,0 +1,460 @@
+{
+  "ok": true,
+  "outputDir": "/Users/sarvesh/Dev/Zombie check/demo/review-frames",
+  "frames": [
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "proof"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-02-at-2s.png",
+      "time": 2,
+      "role": "beat",
+      "label": "proof mid"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-03-at-4.3s.png",
+      "time": 4.3,
+      "role": "beat",
+      "label": "mapping"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-04-at-8s.png",
+      "time": 8,
+      "role": "beat",
+      "label": "mapping mid"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-05-at-12.3s.png",
+      "time": 12.3,
+      "role": "beat",
+      "label": "signals"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-06-at-17s.png",
+      "time": 17,
+      "role": "beat",
+      "label": "signals mid"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-07-at-22.3s.png",
+      "time": 22.3,
+      "role": "beat",
+      "label": "evidence"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-08-at-27.5s.png",
+      "time": 27.5,
+      "role": "beat",
+      "label": "evidence mid"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-09-at-33.3s.png",
+      "time": 33.3,
+      "role": "beat",
+      "label": "export"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-10-at-37.5s.png",
+      "time": 37.5,
+      "role": "beat",
+      "label": "export mid"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-11-at-42.3s.png",
+      "time": 42.3,
+      "role": "beat",
+      "label": "resume"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-12-at-48s.png",
+      "time": 48,
+      "role": "beat",
+      "label": "resume mid"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-1-at-3.8s.png",
+      "time": 3.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-2-at-3.9s.png",
+      "time": 3.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-3-at-4s.png",
+      "time": 4,
+      "role": "seam",
+      "label": "cut proof -> mapping"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-4-at-4.1s.png",
+      "time": 4.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-5-at-4.2s.png",
+      "time": 4.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-1-at-11.8s.png",
+      "time": 11.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-2-at-11.9s.png",
+      "time": 11.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-3-at-12s.png",
+      "time": 12,
+      "role": "seam",
+      "label": "cut mapping -> signals"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-4-at-12.1s.png",
+      "time": 12.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-5-at-12.2s.png",
+      "time": 12.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-1-at-21.8s.png",
+      "time": 21.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-2-at-21.9s.png",
+      "time": 21.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-3-at-22s.png",
+      "time": 22,
+      "role": "seam",
+      "label": "cut signals -> evidence"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-4-at-22.1s.png",
+      "time": 22.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-5-at-22.2s.png",
+      "time": 22.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-1-at-32.8s.png",
+      "time": 32.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-2-at-32.9s.png",
+      "time": 32.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-3-at-33s.png",
+      "time": 33,
+      "role": "seam",
+      "label": "cut evidence -> export"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-4-at-33.1s.png",
+      "time": 33.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-5-at-33.2s.png",
+      "time": 33.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-1-at-41.8s.png",
+      "time": 41.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-2-at-41.9s.png",
+      "time": 41.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-3-at-42s.png",
+      "time": 42,
+      "role": "seam",
+      "label": "cut export -> resume"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-4-at-42.1s.png",
+      "time": 42.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-5-at-42.2s.png",
+      "time": 42.2,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-beats.jpg",
+    "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-01.jpg",
+    "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-02.jpg",
+    "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-03.jpg",
+    "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-04.jpg",
+    "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-05.jpg",
+    "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-phone.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      54
+    ],
+    "scenes": [
+      {
+        "id": "proof",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "id": "mapping",
+        "start": 4,
+        "end": 12
+      },
+      {
+        "id": "signals",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "id": "evidence",
+        "start": 22,
+        "end": 33
+      },
+      {
+        "id": "export",
+        "start": 33,
+        "end": 42
+      },
+      {
+        "id": "resume",
+        "start": 42,
+        "end": 54
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "proof",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-01-at-0.3s.png"
+      },
+      {
+        "time": 2,
+        "label": "proof mid",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-02-at-2s.png"
+      },
+      {
+        "time": 4.3,
+        "label": "mapping",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-03-at-4.3s.png"
+      },
+      {
+        "time": 8,
+        "label": "mapping mid",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-04-at-8s.png"
+      },
+      {
+        "time": 12.3,
+        "label": "signals",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-05-at-12.3s.png"
+      },
+      {
+        "time": 17,
+        "label": "signals mid",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-06-at-17s.png"
+      },
+      {
+        "time": 22.3,
+        "label": "evidence",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-07-at-22.3s.png"
+      },
+      {
+        "time": 27.5,
+        "label": "evidence mid",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-08-at-27.5s.png"
+      },
+      {
+        "time": 33.3,
+        "label": "export",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-09-at-33.3s.png"
+      },
+      {
+        "time": 37.5,
+        "label": "export mid",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-10-at-37.5s.png"
+      },
+      {
+        "time": 42.3,
+        "label": "resume",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-11-at-42.3s.png"
+      },
+      {
+        "time": 48,
+        "label": "resume mid",
+        "path": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/beat-12-at-48s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 4,
+        "from": "proof",
+        "to": "mapping",
+        "times": [
+          3.8,
+          3.9,
+          4,
+          4.1,
+          4.2
+        ],
+        "paths": [
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-1-at-3.8s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-2-at-3.9s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-3-at-4s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-4-at-4.1s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-01-5-at-4.2s.png"
+        ],
+        "sheet": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-01.jpg"
+      },
+      {
+        "time": 12,
+        "from": "mapping",
+        "to": "signals",
+        "times": [
+          11.8,
+          11.9,
+          12,
+          12.1,
+          12.2
+        ],
+        "paths": [
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-1-at-11.8s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-2-at-11.9s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-3-at-12s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-4-at-12.1s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-02-5-at-12.2s.png"
+        ],
+        "sheet": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-02.jpg"
+      },
+      {
+        "time": 22,
+        "from": "signals",
+        "to": "evidence",
+        "times": [
+          21.8,
+          21.9,
+          22,
+          22.1,
+          22.2
+        ],
+        "paths": [
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-1-at-21.8s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-2-at-21.9s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-3-at-22s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-4-at-22.1s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-03-5-at-22.2s.png"
+        ],
+        "sheet": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-03.jpg"
+      },
+      {
+        "time": 33,
+        "from": "evidence",
+        "to": "export",
+        "times": [
+          32.8,
+          32.9,
+          33,
+          33.1,
+          33.2
+        ],
+        "paths": [
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-1-at-32.8s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-2-at-32.9s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-3-at-33s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-4-at-33.1s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-04-5-at-33.2s.png"
+        ],
+        "sheet": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-04.jpg"
+      },
+      {
+        "time": 42,
+        "from": "export",
+        "to": "resume",
+        "times": [
+          41.8,
+          41.9,
+          42,
+          42.1,
+          42.2
+        ],
+        "paths": [
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-1-at-41.8s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-2-at-41.9s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-3-at-42s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-4-at-42.1s.png",
+          "/Users/sarvesh/Dev/Zombie check/demo/review-frames/seam-05-5-at-42.2s.png"
+        ],
+        "sheet": "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-05.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-beats.jpg"
+      ],
+      "seams": [
+        "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-01.jpg",
+        "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-02.jpg",
+        "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-03.jpg",
+        "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-04.jpg",
+        "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-seam-05.jpg"
+      ],
+      "phone": [
+        "/Users/sarvesh/Dev/Zombie check/demo/review-frames/review-phone.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.8.212",
+    "latestVersion": "0.9.61",
+    "updateAvailable": true
+  }
+}

@@ -70,13 +70,14 @@ def scene_html(name,duration,title,subtitle,content,camera=None):
     if camera:
         start,end=camera
         animation+=(f'tl.fromTo("#{name}-world",{{x:{start[0]},y:{start[1]},scale:{start[2]}}},'
-                    f'{{x:{end[0]},y:{end[1]},scale:{end[2]},duration:{duration-1.7},ease:"power2.inOut"}},.7);')
+                    f'{{x:{end[0]},y:{end[1]},scale:{end[2]},duration:{duration-3.2 if name == "evidence" else duration-1.7},ease:"power2.inOut"}},.7);')
     else:
         animation+=f'tl.fromTo("#{name}-panel",{{y:40,opacity:0}},{{y:0,opacity:1,duration:.7,ease:"power3.out"}},.6);'
     if name=="resume":
         animation+='tl.fromTo("#resume-final",{opacity:0},{opacity:1,duration:.5,ease:"power2.out"},7.5);'
     animation+=f'window.__timelines["{name}"]=tl;'
-    return f"""<!doctype html><html><body><template><style>{CSS}</style>
+    styles = CSS + (".viewport{left:412px;width:1096px}" if name == "evidence" else "")
+    return f"""<!doctype html><html><body><template><style>{styles}</style>
       <div id="root" data-composition-id="{name}" data-width="1920" data-height="1080" data-duration="{duration}">
       <div class="scene-shell"><div class="step">{escape(name.upper())} / RECORDED RUN</div>
       <h1 id="{name}-title" class="title">{escape(title)}</h1>
@@ -124,7 +125,7 @@ def main():
       ("signals",12,10,"Five live checks for every posting.","TinySet researches employers; each job is checked independently.",
        screenshot_content("signals","ui-desktop-ledger.png"),((-170,-260,1.22),(-240,-420,1.36))),
       ("evidence",22,11,"Follow each verdict to its sources.","Posting health is checked. Hiring intent remains unverified.",
-       screenshot_content("evidence","ui-desktop-evidence.png"),((-1490,-270,2.18),(-1560,-1010,2.27))),
+       screenshot_content("evidence","ui-desktop-evidence.png"),((-2040,-240,2.18),(-2140,-1370,2.27))),
       ("export",33,9,f"{audit['input_rows']} rows in. {audit['output_rows']} rows out.","This preview comes directly from the returned CSV.",output,None),
       ("resume",42,12,"Resume without repeating finished work.","The saved checkpoint was compared with the completed run.",comparison,None)]
     hosts=[]

@@ -4,7 +4,7 @@
 
 Repository: https://github.com/Sarvesh5273/Zombie-Check
 
-Primary demo: 500 distinct official job postings from Stripe, Datadog and Cloudflare. Input/provenance under examples/; completed CSV, evidence JSONL, run report, export verification and resume proof under artifacts/. Local recorded walkthrough and editable source are included under demo/ and artifacts/demo.mp4 when rendering completes.
+Primary demo: 500 distinct official job postings from Stripe, Datadog and Cloudflare. Input/provenance under examples/; completed CSV, evidence JSONL, run report, export verification and resume proof under artifacts/. The recorded walkthrough is artifacts/demo.mp4; its editable source and verification are under demo/.
 
 Result recorded November 17, 2026: **500/500 verdicts,340 alive, 160 slowing down, 0 unresolved**. Each row has five checked categories and at least four verified observations. Original cells/order were independently verified.
 
@@ -97,7 +97,7 @@ Limits: Greenhouse posting adapter;90-day age is a caution heuristic. Public pos
 - [x] Resumability demonstrated on actual work.
 - [x] Meaningful TinySet role and endpoint scope disclosed.
 - [x] Budget below the chosen $5 ceiling, recorded as conservative allocations.
-- [ ] Repository publication and walkthrough verified.
+- [x] Repository publication and walkthrough verified.
 - [ ] User confirms individual/program eligibility and one submission per bounty.
 - [ ] Exact LinkedIn copy approved/published with TinyFish tag.
 - [ ] Exact Discord copy approved/shared to #showcase.
