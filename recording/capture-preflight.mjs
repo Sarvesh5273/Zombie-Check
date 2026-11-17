@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+process.env.PLAYWRIGHT_BROWSERS_PATH=path.resolve('recording/.runtime');
+const {chromium}=await import('/Users/sarvesh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
+const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+const context=await browser.newContext({viewport:{width:1920,height:1080},recordVideo:{dir:path.resolve('recording/preflight'),size:{width:1920,height:1080}}});
+await context.route('**/*',async route=>{
+  const r=route.request(),u=new URL(r.url());
+  const allowed=u.origin==='http://127.0.0.1:8765'&&r.method()==='GET';
+  await (allowed?route.continue():route.abort('blockedbyclient'));
+});
+const page=await context.newPage();
+const video=page.video();
+await page.goto('http://127.0.0.1:8765',{waitUntil:'networkidle'});
+await new Promise(resolve=>setTimeout(resolve,2500));
+await page.close();await context.close();await browser.close();
+const file=await video.path();
+const stat=await fs.stat(file);
+if(!stat.size) throw new Error('Preflight captured an empty file');
+console.log(JSON.stringify({captured_video:file,bytes:stat.size}));

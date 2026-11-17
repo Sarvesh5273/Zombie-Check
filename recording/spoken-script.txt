@@ -1,0 +1,17 @@
+Before you trust a spreadsheet, check whether its links and listings still hold up.
+
+This is Zombie Check. Upload your CSV and map the title, job link, employer, and website columns. Here, the input contains 500 real job posts.
+
+TinySet researches three employers once for this demo. Their context is shared across the jobs, while each posting and its application configuration are checked.
+
+Here's the completed live audit from earlier: 340 alive, 160 slowing down, and no unresolved rows. Each row has at least four verified observations.
+
+Slowing down means the posting is more than 90 days old. It's a caution flag, not proof of a fake vacancy.
+
+Open a row to inspect its sources, dates, and verification notes. This Datadog link returned a 404. A verified Japanese page resolved the same posting.
+
+The report shows which completion checks passed. Export keeps every original cell and row order, while adding verdicts and evidence.
+
+Saved checkpoints also let interrupted audits resume. In our recorded proof, 490 completed results stayed unchanged while the final ten finished.
+
+You get the same spreadsheet back, with a clear record of what was checked.

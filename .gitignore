@@ -15,4 +15,9 @@ demo/.thumbnails/
 demo/.waveform-cache/
 demo/*.log
 demo/preview.json
+recording/.runtime/
+recording/raw/
+recording/failed-*/
+recording/*.log
+recording/preflight/
 

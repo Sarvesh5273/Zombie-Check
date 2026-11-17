@@ -70,3 +70,7 @@ TinySet researches three employers once, not 500 unique vacancies. This is meani
 The user approved both public drafts and the final entry on November 17, 2026, and confirmed program membership and the individual/one-entry rule. Nothing has been posted or submitted yet.
 
 Remote repository inspected: empty, default main, public, authenticated push access. Publishing will initialize its main branch; no existing code needs replacement.
+
+## Direct recording update
+
+The user requested a real screen recording and explicitly excluded HyperFrames. recording/app-recording-silent.mp4 is a verified 95.83-second, 1080p/30fps continuous app recording. It shows actual CSV input, mappings, the completed earlier audit, evidence, export and saved resume JSON. Zero audit mutations or paid calls occurred. The emotion-tagged script is recording/elevenlabs-script.txt. The user will provide the generated audio; narration merge remains pending that file.

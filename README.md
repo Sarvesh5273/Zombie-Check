@@ -8,7 +8,7 @@ Check an old company or job spreadsheet against live pages, keep the original ce
 
 **Verification:** 154 offline tests pass; GitHub CI independently passes the suite, JavaScript syntax and recorded CSV check.
 
-[Recorded walkthrough](artifacts/demo.mp4) · [Editable demo source](demo/README.md)
+[Actual app recording (silent)](recording/app-recording-silent.mp4) · [ElevenLabs narration script](recording/elevenlabs-script.txt) · [Recording verification](recording/README.md)
 
 ## Inspect the proof
 

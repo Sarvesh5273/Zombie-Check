@@ -1,0 +1,216 @@
+{
+  "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+  "scope": "Continuous real app recording of an audit completed earlier",
+  "capture_wall_seconds": 95.06411525,
+  "actions": [
+    {
+      "label": "Open actual app",
+      "start_seconds": 0.11419325000000004,
+      "end_seconds": 0.721500583
+    },
+    {
+      "label": "Upload actual 500-row CSV through the file input",
+      "start_seconds": 4.8235255829999995,
+      "file": "examples/jobs-500.csv",
+      "end_seconds": 5.298804333
+    },
+    {
+      "label": "Choose job-post mode with the actual select control",
+      "start_seconds": 8.300463,
+      "end_seconds": 9.102740207999998
+    },
+    {
+      "label": "Map original job title column",
+      "start_seconds": 9.102761083,
+      "end_seconds": 9.886493999999999
+    },
+    {
+      "label": "Map exact original job URL column",
+      "start_seconds": 9.886535208000002,
+      "end_seconds": 10.668439125
+    },
+    {
+      "label": "Map original employer column",
+      "start_seconds": 10.668453125,
+      "end_seconds": 11.453391250000001
+    },
+    {
+      "label": "Map original employer website column",
+      "start_seconds": 11.453429667,
+      "end_seconds": 12.235331042000002
+    },
+    {
+      "label": "Inspect optional job-board mappings",
+      "start_seconds": 15.246312167,
+      "end_seconds": 15.778361375000001
+    },
+    {
+      "label": "Scroll real import form to preview and cost cap",
+      "start_seconds": 15.778368750000002,
+      "end_seconds": 18.011384917
+    },
+    {
+      "label": "Close preview without creating an audit",
+      "start_seconds": 22.104844916999998,
+      "end_seconds": 22.644785125
+    },
+    {
+      "label": "Open saved completed audit from the sidebar",
+      "start_seconds": 22.644795458,
+      "end_seconds": 23.256939833
+    },
+    {
+      "label": "Filter alive rows",
+      "start_seconds": 29.327765583,
+      "end_seconds": 29.864306083
+    },
+    {
+      "label": "Filter slowing-down rows",
+      "start_seconds": 32.8663315,
+      "end_seconds": 33.397437542
+    },
+    {
+      "label": "Restore all rows and search for exact posting 8113562",
+      "start_seconds": 37.399318417,
+      "end_seconds": 39.273221458
+    },
+    {
+      "label": "Open exact row R000329",
+      "start_seconds": 41.275583874999995,
+      "end_seconds": 41.802404
+    },
+    {
+      "label": "Inspect employer blog and release evidence",
+      "start_seconds": 48.876375958,
+      "end_seconds": 51.110987916999996
+    },
+    {
+      "label": "Inspect exact listing, social uncertainty, and application intake",
+      "start_seconds": 55.190515,
+      "end_seconds": 57.427391208
+    },
+    {
+      "label": "Close evidence",
+      "start_seconds": 63.506930667,
+      "end_seconds": 64.041725958
+    },
+    {
+      "label": "Clear exact-posting search",
+      "start_seconds": 64.041731708,
+      "end_seconds": 64.58079575
+    },
+    {
+      "label": "Open actual run report",
+      "start_seconds": 64.580801,
+      "end_seconds": 65.200482292
+    },
+    {
+      "label": "Inspect report scope and preserved row count",
+      "start_seconds": 71.29443575,
+      "end_seconds": 73.52674741700001
+    },
+    {
+      "label": "Close run report",
+      "start_seconds": 76.528958167,
+      "end_seconds": 77.05846675
+    },
+    {
+      "label": "Download actual CSV from the app",
+      "start_seconds": 77.058478375,
+      "end_seconds": 77.641246417
+    },
+    {
+      "label": "Open actual saved resume proof in the browser file view",
+      "start_seconds": 80.683755625,
+      "file": "artifacts/jobs-resume-proof.json",
+      "end_seconds": 80.711082458
+    },
+    {
+      "label": "Return to real completed app ledger",
+      "start_seconds": 86.761658958,
+      "end_seconds": 87.970763792
+    }
+  ],
+  "segments": [
+    {
+      "label": "Welcome — original list and five signals",
+      "start_seconds": 0.7373472079999999,
+      "end_seconds": 4.740061958
+    },
+    {
+      "label": "Real import preview",
+      "start_seconds": 5.298808083,
+      "end_seconds": 8.300419417
+    },
+    {
+      "label": "Original title, URL, employer, and website examples",
+      "start_seconds": 12.244588791999998,
+      "end_seconds": 15.246276582999998
+    },
+    {
+      "label": "Original CSV cells and research cost cap",
+      "start_seconds": 18.01143725,
+      "end_seconds": 22.013694292
+    },
+    {
+      "label": "Completed earlier — actual 500-row totals",
+      "start_seconds": 23.256943083,
+      "end_seconds": 29.259059625
+    },
+    {
+      "label": "Actual alive rows and five signal indicators",
+      "start_seconds": 29.864313292,
+      "end_seconds": 32.866308124999996
+    },
+    {
+      "label": "Actual slowing-down rows",
+      "start_seconds": 33.397443833,
+      "end_seconds": 37.399295583
+    },
+    {
+      "label": "Exact original posting found",
+      "start_seconds": 39.273227417,
+      "end_seconds": 41.275574083
+    },
+    {
+      "label": "Reason, cautious verdict, preserved failed route, and recovered locale",
+      "start_seconds": 41.804049833,
+      "end_seconds": 48.806601625
+    },
+    {
+      "label": "Employer dates, methods, and real source links",
+      "start_seconds": 51.111045542,
+      "end_seconds": 55.113280167
+    },
+    {
+      "label": "Independent job and application checks; uncertainty is visible",
+      "start_seconds": 57.427435583,
+      "end_seconds": 63.429629792
+    },
+    {
+      "label": "Actual completion gates and meaningful service usage",
+      "start_seconds": 65.20048570799999,
+      "end_seconds": 71.202784208
+    },
+    {
+      "label": "Original rows and observation limits",
+      "start_seconds": 73.52675875,
+      "end_seconds": 76.528927375
+    },
+    {
+      "label": "Actual export confirmation and completed ledger",
+      "start_seconds": 77.64124975,
+      "end_seconds": 80.643334417
+    },
+    {
+      "label": "Recorded checkpoint proof — 490 preserved, 500 completed",
+      "start_seconds": 80.711089708,
+      "end_seconds": 86.713527792
+    },
+    {
+      "label": "Final actual completed ledger",
+      "start_seconds": 87.970772833,
+      "end_seconds": 95.001389375
+    }
+  ]
+}

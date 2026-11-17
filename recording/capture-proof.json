@@ -1,0 +1,449 @@
+{
+  "started_at": "2026-11-17T13:37:31.451Z",
+  "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+  "target_row_id": "R000329",
+  "scope": "Continuous real app recording of an audit completed earlier",
+  "allowed_requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/",
+      "seconds": 0.12327945799999998
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/styles.css",
+      "seconds": 0.13611779200000002
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/app.js",
+      "seconds": 0.13639329199999997
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/config",
+      "seconds": 0.19069475
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits",
+      "seconds": 0.19436287500000002
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8765/api/preview",
+      "seconds": 5.2820332500000005
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55",
+      "seconds": 23.1792565
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55/rows?limit=500&offset=0",
+      "seconds": 23.179773667
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55/events",
+      "seconds": 23.249153082999996
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55/report",
+      "seconds": 65.126048583
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55/export",
+      "seconds": 77.59223854199999
+    },
+    {
+      "method": "GET",
+      "url": "file:///Users/sarvesh/Dev/Zombie%20check/artifacts/jobs-resume-proof.json",
+      "seconds": 80.687172167
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/",
+      "seconds": 86.765247542
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/styles.css",
+      "seconds": 86.77383275
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/app.js",
+      "seconds": 86.774306625
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/config",
+      "seconds": 86.831698875
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits",
+      "seconds": 86.83541758300001
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55",
+      "seconds": 87.893349125
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55/rows?limit=500&offset=0",
+      "seconds": 87.89376675
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8765/api/audits/857949de-0d18-4951-9598-cef63cba4e55/events",
+      "seconds": 87.96911225000001
+    }
+  ],
+  "blocked_requests": [],
+  "actions": [
+    {
+      "label": "Open actual app",
+      "start_seconds": 0.11419325000000004,
+      "end_seconds": 0.721500583
+    },
+    {
+      "label": "Upload actual 500-row CSV through the file input",
+      "start_seconds": 4.8235255829999995,
+      "file": "examples/jobs-500.csv",
+      "end_seconds": 5.298804333
+    },
+    {
+      "label": "Choose job-post mode with the actual select control",
+      "start_seconds": 8.300463,
+      "end_seconds": 9.102740207999998
+    },
+    {
+      "label": "Map original job title column",
+      "start_seconds": 9.102761083,
+      "end_seconds": 9.886493999999999
+    },
+    {
+      "label": "Map exact original job URL column",
+      "start_seconds": 9.886535208000002,
+      "end_seconds": 10.668439125
+    },
+    {
+      "label": "Map original employer column",
+      "start_seconds": 10.668453125,
+      "end_seconds": 11.453391250000001
+    },
+    {
+      "label": "Map original employer website column",
+      "start_seconds": 11.453429667,
+      "end_seconds": 12.235331042000002
+    },
+    {
+      "label": "Inspect optional job-board mappings",
+      "start_seconds": 15.246312167,
+      "end_seconds": 15.778361375000001
+    },
+    {
+      "label": "Scroll real import form to preview and cost cap",
+      "start_seconds": 15.778368750000002,
+      "end_seconds": 18.011384917
+    },
+    {
+      "label": "Close preview without creating an audit",
+      "start_seconds": 22.104844916999998,
+      "end_seconds": 22.644785125
+    },
+    {
+      "label": "Open saved completed audit from the sidebar",
+      "start_seconds": 22.644795458,
+      "end_seconds": 23.256939833
+    },
+    {
+      "label": "Filter alive rows",
+      "start_seconds": 29.327765583,
+      "end_seconds": 29.864306083
+    },
+    {
+      "label": "Filter slowing-down rows",
+      "start_seconds": 32.8663315,
+      "end_seconds": 33.397437542
+    },
+    {
+      "label": "Restore all rows and search for exact posting 8113562",
+      "start_seconds": 37.399318417,
+      "end_seconds": 39.273221458
+    },
+    {
+      "label": "Open exact row R000329",
+      "start_seconds": 41.275583874999995,
+      "end_seconds": 41.802404
+    },
+    {
+      "label": "Inspect employer blog and release evidence",
+      "start_seconds": 48.876375958,
+      "end_seconds": 51.110987916999996
+    },
+    {
+      "label": "Inspect exact listing, social uncertainty, and application intake",
+      "start_seconds": 55.190515,
+      "end_seconds": 57.427391208
+    },
+    {
+      "label": "Close evidence",
+      "start_seconds": 63.506930667,
+      "end_seconds": 64.041725958
+    },
+    {
+      "label": "Clear exact-posting search",
+      "start_seconds": 64.041731708,
+      "end_seconds": 64.58079575
+    },
+    {
+      "label": "Open actual run report",
+      "start_seconds": 64.580801,
+      "end_seconds": 65.200482292
+    },
+    {
+      "label": "Inspect report scope and preserved row count",
+      "start_seconds": 71.29443575,
+      "end_seconds": 73.52674741700001
+    },
+    {
+      "label": "Close run report",
+      "start_seconds": 76.528958167,
+      "end_seconds": 77.05846675
+    },
+    {
+      "label": "Download actual CSV from the app",
+      "start_seconds": 77.058478375,
+      "end_seconds": 77.641246417
+    },
+    {
+      "label": "Open actual saved resume proof in the browser file view",
+      "start_seconds": 80.683755625,
+      "file": "artifacts/jobs-resume-proof.json",
+      "end_seconds": 80.711082458
+    },
+    {
+      "label": "Return to real completed app ledger",
+      "start_seconds": 86.761658958,
+      "end_seconds": 87.970763792
+    }
+  ],
+  "segments": [
+    {
+      "label": "Welcome \u2014 original list and five signals",
+      "start_seconds": 0.7373472079999999,
+      "end_seconds": 4.740061958
+    },
+    {
+      "label": "Real import preview",
+      "start_seconds": 5.298808083,
+      "end_seconds": 8.300419417
+    },
+    {
+      "label": "Original title, URL, employer, and website examples",
+      "start_seconds": 12.244588791999998,
+      "end_seconds": 15.246276582999998
+    },
+    {
+      "label": "Original CSV cells and research cost cap",
+      "start_seconds": 18.01143725,
+      "end_seconds": 22.013694292
+    },
+    {
+      "label": "Completed earlier \u2014 actual 500-row totals",
+      "start_seconds": 23.256943083,
+      "end_seconds": 29.259059625
+    },
+    {
+      "label": "Actual alive rows and five signal indicators",
+      "start_seconds": 29.864313292,
+      "end_seconds": 32.866308124999996
+    },
+    {
+      "label": "Actual slowing-down rows",
+      "start_seconds": 33.397443833,
+      "end_seconds": 37.399295583
+    },
+    {
+      "label": "Exact original posting found",
+      "start_seconds": 39.273227417,
+      "end_seconds": 41.275574083
+    },
+    {
+      "label": "Reason, cautious verdict, preserved failed route, and recovered locale",
+      "start_seconds": 41.804049833,
+      "end_seconds": 48.806601625
+    },
+    {
+      "label": "Employer dates, methods, and real source links",
+      "start_seconds": 51.111045542,
+      "end_seconds": 55.113280167
+    },
+    {
+      "label": "Independent job and application checks; uncertainty is visible",
+      "start_seconds": 57.427435583,
+      "end_seconds": 63.429629792
+    },
+    {
+      "label": "Actual completion gates and meaningful service usage",
+      "start_seconds": 65.20048570799999,
+      "end_seconds": 71.202784208
+    },
+    {
+      "label": "Original rows and observation limits",
+      "start_seconds": 73.52675875,
+      "end_seconds": 76.528927375
+    },
+    {
+      "label": "Actual export confirmation and completed ledger",
+      "start_seconds": 77.64124975,
+      "end_seconds": 80.643334417
+    },
+    {
+      "label": "Recorded checkpoint proof \u2014 490 preserved, 500 completed",
+      "start_seconds": 80.711089708,
+      "end_seconds": 86.713527792
+    },
+    {
+      "label": "Final actual completed ledger",
+      "start_seconds": 87.970772833,
+      "end_seconds": 95.001389375
+    }
+  ],
+  "runtime_errors": [],
+  "screenshots": [
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/01-welcome.png",
+      "seconds": 4.82351675
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/02-import-preview.png",
+      "seconds": 22.104839292
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/03-completed-ledger.png",
+      "seconds": 29.327757417
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/04-locale-recovery.png",
+      "seconds": 48.876370582999996
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/05-employer-evidence.png",
+      "seconds": 55.190509542
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/06-posting-intake.png",
+      "seconds": 63.506922458
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/07-run-report.png",
+      "seconds": 71.294430542
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/08-export-complete.png",
+      "seconds": 80.68374575
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/09-actual-resume-proof.png",
+      "seconds": 86.761652667
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/recording/10-final-ledger.png",
+      "seconds": 95.06411154199999
+    }
+  ],
+  "injected_product_data": false,
+  "audit_mutations_allowed": false,
+  "paid_service_calls": 0,
+  "before": {
+    "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+    "status": "complete",
+    "total": 500,
+    "row_count": 500,
+    "counts": {
+      "done": 500
+    },
+    "audit_ids": [
+      "37a7d660-7c0b-4b0b-aee7-56b00422c6ab",
+      "857949de-0d18-4951-9598-cef63cba4e55",
+      "967f3deb-4210-4fd1-95b5-a7423b03bcbf"
+    ],
+    "audit_sha256": "5b7415e8716a6ac94b9f44845992581e1ebad0d753966f310291e6aa692a0686",
+    "rows_sha256": "97967837018da8e22fde52cf0ba993666b57c5130317e699ab44c0b972731f7b"
+  },
+  "target_row": {
+    "row_id": "R000329",
+    "title": "Regional Manager, Sales Engineering - Public Sector",
+    "verdict": "slowing down",
+    "canonical_url": "https://careers.datadoghq.com/ja/detail/8113562/"
+  },
+  "import_mappings": {
+    "auditMode": "jobs",
+    "nameColumn": "1",
+    "urlColumn": "2",
+    "employerColumn": "0",
+    "employerWebsiteColumn": "4"
+  },
+  "download": {
+    "path": "/Users/sarvesh/Dev/Zombie check/recording/downloaded-audit.csv",
+    "suggested_filename": "500-official-job-posts-live-bounty-proof-zombie-check.csv",
+    "sha256": "dd02a2903c9420440707a02ff9877675404f3f0553abc0f3de745ca89d5b483f"
+  },
+  "recording_wall_seconds": 95.06411525,
+  "after": {
+    "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+    "status": "complete",
+    "total": 500,
+    "row_count": 500,
+    "counts": {
+      "done": 500
+    },
+    "audit_ids": [
+      "37a7d660-7c0b-4b0b-aee7-56b00422c6ab",
+      "857949de-0d18-4951-9598-cef63cba4e55",
+      "967f3deb-4210-4fd1-95b5-a7423b03bcbf"
+    ],
+    "audit_sha256": "5b7415e8716a6ac94b9f44845992581e1ebad0d753966f310291e6aa692a0686",
+    "rows_sha256": "97967837018da8e22fde52cf0ba993666b57c5130317e699ab44c0b972731f7b"
+  },
+  "comparison": {
+    "audit_unchanged": true,
+    "rows_unchanged": true,
+    "no_new_audits": true
+  },
+  "passed": true,
+  "raw_video": "/Users/sarvesh/Dev/Zombie check/recording/raw/page@6cd7665c8369a29a1e286eefe836fe95.webm",
+  "raw_video_bytes": 8492524,
+  "finished_at": "2026-11-17T13:39:07.895Z",
+  "silent_mp4": "/Users/sarvesh/Dev/Zombie check/recording/app-recording-silent.mp4",
+  "media_verification": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "duration_seconds": 95.833333,
+    "video_frames": 2875,
+    "file_bytes": 6104961,
+    "audio_streams": 0,
+    "sha256": "4bbe5220311afd0d8431027953f8ee47d982ae32bc1520a4811631fc3eebd761",
+    "decoded_frame_review_seconds": [
+      9,
+      14,
+      30,
+      46,
+      60,
+      70,
+      85,
+      94
+    ],
+    "verified": true
+  }
+}

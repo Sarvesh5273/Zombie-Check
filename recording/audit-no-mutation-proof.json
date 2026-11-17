@@ -1,0 +1,53 @@
+{
+  "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+  "started_at": "2026-11-17T13:37:31.451Z",
+  "finished_at": "2026-11-17T13:39:07.895Z",
+  "scope": "Continuous real app recording of an audit completed earlier",
+  "before": {
+    "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+    "status": "complete",
+    "total": 500,
+    "row_count": 500,
+    "counts": {
+      "done": 500
+    },
+    "audit_ids": [
+      "37a7d660-7c0b-4b0b-aee7-56b00422c6ab",
+      "857949de-0d18-4951-9598-cef63cba4e55",
+      "967f3deb-4210-4fd1-95b5-a7423b03bcbf"
+    ],
+    "audit_sha256": "5b7415e8716a6ac94b9f44845992581e1ebad0d753966f310291e6aa692a0686",
+    "rows_sha256": "97967837018da8e22fde52cf0ba993666b57c5130317e699ab44c0b972731f7b"
+  },
+  "after": {
+    "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+    "status": "complete",
+    "total": 500,
+    "row_count": 500,
+    "counts": {
+      "done": 500
+    },
+    "audit_ids": [
+      "37a7d660-7c0b-4b0b-aee7-56b00422c6ab",
+      "857949de-0d18-4951-9598-cef63cba4e55",
+      "967f3deb-4210-4fd1-95b5-a7423b03bcbf"
+    ],
+    "audit_sha256": "5b7415e8716a6ac94b9f44845992581e1ebad0d753966f310291e6aa692a0686",
+    "rows_sha256": "97967837018da8e22fde52cf0ba993666b57c5130317e699ab44c0b972731f7b"
+  },
+  "comparison": {
+    "audit_unchanged": true,
+    "rows_unchanged": true,
+    "no_new_audits": true
+  },
+  "blocked_requests": [],
+  "non_read_requests": [
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8765/api/preview",
+      "seconds": 5.2820332500000005
+    }
+  ],
+  "paid_service_calls": 0,
+  "passed": true
+}
