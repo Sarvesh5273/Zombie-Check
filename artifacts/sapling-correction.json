@@ -1,0 +1,16 @@
+{
+  "audit_id": "967f3deb-4210-4fd1-95b5-a7423b03bcbf",
+  "row_id": "R000009",
+  "name": "Sapling.ai",
+  "original_verdict": "zombie",
+  "false_closure_evidence": {
+    "status": "confirmed",
+    "url": "https://sapling.ai/security",
+    "quote": "On October 21, 2026 we permanently shut down blog.sapling.ai, our WordPress blog. Rather than keep patching a PHP application stack that existed only to publish marketing posts, we removed it from our public footprint.",
+    "note": "Explicit organization-level closure language names the supplied company/product.",
+    "verified": true
+  },
+  "correction_reason": "The security article describes closure of blog.sapling.ai only, not the Sapling toolkit/company.",
+  "corrected_verdict": "",
+  "review_required": true
+}

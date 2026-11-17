@@ -1,0 +1,21 @@
+{
+  "feed_url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+  "metadata_url": "https://boards-api.greenhouse.io/v1/boards/figma",
+  "metadata_name": "Figma",
+  "picked": [
+    {
+      "id": 5364702004,
+      "title": "Account Executive, Mid-Market (Berlin, Germany)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5364702004?gh_jid=5364702004"
+    },
+    {
+      "id": 5415515004,
+      "title": "Account Executive, Mid-Market (London, United Kingdom)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5415515004?gh_jid=5415515004"
+    }
+  ],
+  "retrieved_on": "2026-11-17",
+  "selection": "Two lowest numeric posting IDs from fresh official feed; no age/verdict filter",
+  "rows": 2,
+  "sha256": "3841fddd5a9d0869431dcae98bd3dba62075fc0f01384aba723f098790a88bf9"
+}

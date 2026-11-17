@@ -1,0 +1,14 @@
+{
+  "gates": {
+    "two_real_rows": true,
+    "all_original_cells_and_order_preserved": true,
+    "all_verdicts_present": true,
+    "four_signal_checks_each": true,
+    "native_ids_and_api_urls_derived": true,
+    "tinyset_used": true,
+    "no_unresolved": true
+  },
+  "pass": true,
+  "scope": "Additional two-row real pilot; primary 500-row proof is jobs-audited.csv",
+  "audit_id": "37a7d660-7c0b-4b0b-aee7-56b00422c6ab"
+}

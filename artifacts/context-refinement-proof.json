@@ -1,0 +1,212 @@
+{
+  "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+  "updated_at": "2026-11-17T12:38:03.485883+00:00",
+  "rows_enhanced": 500,
+  "job_core_unchanged": true,
+  "new_datasets": 0,
+  "role_api_fetches": 0,
+  "verified_signal_distribution": {
+    "5": 167,
+    "4": 333
+  },
+  "employers": {
+    "stripe|stripe.com": {
+      "dataset_id": "141b44ef-9950-4adb-81c8-3f779e06d94e",
+      "signals": {
+        "blog": {
+          "kind": "blog",
+          "status": "active",
+          "latest_date": "2026-11-05",
+          "url": "https://stripe.com/blog",
+          "quote": "## Product # Analyze your Stripe data directly with your agent",
+          "note": "Publication date extracted from metadata on this live source page.",
+          "checked_at": "2026-11-17T11:52:02.841378+00:00",
+          "verified": true,
+          "date_verified": true,
+          "method": "tinyset+tinyfetch",
+          "error": null,
+          "date_source": "page_metadata",
+          "shared": true,
+          "scope": "employer",
+          "employer": "Stripe",
+          "employer_website": "https://stripe.com"
+        },
+        "release": {
+          "kind": "release",
+          "status": "active",
+          "latest_date": "2026-10-28",
+          "url": "https://docs.stripe.com/changelog",
+          "quote": "### 2026-10-28.endive",
+          "note": "Explicit dated activity found on this live page.",
+          "checked_at": "2026-11-17T12:37:53.400476+00:00",
+          "verified": true,
+          "date_verified": true,
+          "method": "tinyset+tinyfetch",
+          "error": null,
+          "shared": true,
+          "scope": "employer",
+          "employer": "Stripe",
+          "employer_website": "https://stripe.com",
+          "drilled_from": "https://stripe.com/changelog",
+          "source_index_url": "https://stripe.com/changelog",
+          "drill_checks": [
+            {
+              "url": "https://docs.stripe.com/changelog",
+              "final_url": "https://docs.stripe.com/changelog",
+              "checked_at": "2026-11-17T12:37:53.400476+00:00",
+              "verified": true,
+              "latest_date": "2026-10-28",
+              "error": null
+            }
+          ]
+        },
+        "social": {
+          "kind": "social",
+          "status": "active",
+          "latest_date": "2026-11-17",
+          "url": "https://github.com/stripe",
+          "quote": "## Pinned Loading 1. stripe-node stripe-node Public",
+          "note": "Official profile linked by company homepage; dated activity verified.",
+          "checked_at": "2026-11-17T11:52:02.842444+00:00",
+          "verified": true,
+          "date_verified": true,
+          "method": "tinyset+tinyfetch",
+          "error": null,
+          "shared": true,
+          "scope": "employer",
+          "employer": "Stripe",
+          "employer_website": "https://stripe.com"
+        }
+      }
+    },
+    "datadog|datadoghq.com": {
+      "dataset_id": "141b44ef-9950-4adb-81c8-3f779e06d94e",
+      "signals": {
+        "blog": {
+          "kind": "blog",
+          "status": "active",
+          "latest_date": "2026-11-16",
+          "url": "https://www.datadoghq.com/blog/auto-processing-log-pipelines/",
+          "quote": "Nicolas Jung Product Manager",
+          "note": "Publication date extracted from metadata on this live source page.",
+          "checked_at": "2026-11-17T12:37:57.360128+00:00",
+          "verified": true,
+          "date_verified": true,
+          "method": "tinyset+tinyfetch",
+          "error": null,
+          "date_source": "page_metadata",
+          "shared": true,
+          "scope": "employer",
+          "employer": "Datadog",
+          "employer_website": "https://www.datadoghq.com",
+          "drilled_from": "https://www.datadoghq.com/blog/",
+          "source_index_url": "https://www.datadoghq.com/blog/",
+          "drill_checks": [
+            {
+              "url": "https://www.datadoghq.com/blog/auto-processing-log-pipelines/",
+              "final_url": "https://www.datadoghq.com/blog/auto-processing-log-pipelines/",
+              "checked_at": "2026-11-17T12:37:57.360128+00:00",
+              "verified": true,
+              "latest_date": "2026-11-16",
+              "error": null
+            }
+          ]
+        },
+        "release": {
+          "kind": "release",
+          "status": "active",
+          "latest_date": "2026-11-16",
+          "url": "https://docs.datadoghq.com/api/changelog",
+          "quote": "## 2026-11-16",
+          "note": "Publication date extracted from metadata on this live source page.",
+          "checked_at": "2026-11-17T12:03:31.836405+00:00",
+          "verified": true,
+          "date_verified": true,
+          "method": "tinyset+tinysearch+tinyfetch",
+          "error": null,
+          "date_source": "page_metadata",
+          "shared": true,
+          "scope": "employer",
+          "employer": "Datadog",
+          "employer_website": "https://www.datadoghq.com",
+          "discovered_by": "tinysearch",
+          "discovery_query": "Datadog datadoghq.com official changelog release notes"
+        },
+        "social": {
+          "kind": "social",
+          "status": "unknown",
+          "latest_date": null,
+          "url": "https://github.com/DataDog",
+          "quote": "## Pinned Loading 1. datadog-agent datadog-agent Public",
+          "note": "Ownership of this source could not be verified; its activity cannot establish the original company's status.",
+          "checked_at": "2026-11-17T11:52:10.125027+00:00",
+          "verified": false,
+          "date_verified": false,
+          "method": "tinyset+tinyfetch",
+          "error": "unverified_source_identity",
+          "shared": true,
+          "scope": "employer",
+          "employer": "Datadog",
+          "employer_website": "https://www.datadoghq.com"
+        }
+      }
+    },
+    "cloudflare|cloudflare.com": {
+      "dataset_id": "141b44ef-9950-4adb-81c8-3f779e06d94e",
+      "signals": {
+        "blog": {
+          "kind": "blog",
+          "status": "active",
+          "latest_date": "2026-11-13",
+          "url": "https://blog.cloudflare.com",
+          "quote": "November 13, 2026 ## Kitesurf is now open source",
+          "note": "Explicit dated activity found on this live page.",
+          "checked_at": "2026-11-17T11:52:14.574439+00:00",
+          "verified": true,
+          "date_verified": true,
+          "method": "tinyset+tinyfetch",
+          "error": null,
+          "shared": true,
+          "scope": "employer",
+          "employer": "Cloudflare",
+          "employer_website": "https://www.cloudflare.com"
+        },
+        "release": {
+          "kind": "release",
+          "status": "active",
+          "latest_date": "2026-11-16",
+          "url": "https://developers.cloudflare.com/changelog/",
+          "quote": "All products Product groups",
+          "note": "Publication date extracted from metadata on this live source page.",
+          "checked_at": "2026-11-17T11:52:14.575143+00:00",
+          "verified": true,
+          "date_verified": true,
+          "method": "tinyset+tinyfetch",
+          "error": null,
+          "date_source": "page_metadata",
+          "shared": true,
+          "scope": "employer",
+          "employer": "Cloudflare",
+          "employer_website": "https://www.cloudflare.com"
+        },
+        "social": {
+          "kind": "social",
+          "status": "unknown",
+          "latest_date": null,
+          "url": "https://x.com/cloudflare",
+          "quote": "A temporary WAF rule helps reduce risk, but it is not a substitute for fixing the underlying vulnerability. Join Grant Bourzikas, Cloudflare’s CISO, and Daniele Molteni, Director of Product for Application Security, this Thursday, November 19th for practical guidance on checking",
+          "note": "Ownership of this source could not be verified; its activity cannot establish the original company's status.",
+          "checked_at": "2026-11-17T11:52:14.576572+00:00",
+          "verified": false,
+          "date_verified": false,
+          "method": "tinyset+tinyfetch",
+          "error": "unverified_source_identity",
+          "shared": true,
+          "scope": "employer",
+          "employer": "Cloudflare",
+          "employer_website": "https://www.cloudflare.com"
+        }
+      }
+    }
+  }
+}

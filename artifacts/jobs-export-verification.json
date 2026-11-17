@@ -1,0 +1,26 @@
+{
+  "submission_structure_pass": true,
+  "input_rows": 500,
+  "output_rows": 500,
+  "gates": {
+    "at_least_500_rows": true,
+    "row_count_preserved": true,
+    "original_headers_preserved": true,
+    "original_cells_and_order_preserved": true,
+    "output_headers_unique": true,
+    "output_rows_have_correct_width": true,
+    "required_columns_present": true,
+    "every_row_has_verdict_checks_and_sources": true,
+    "run_report_matches_row_count": true,
+    "run_report_submission_ready": true,
+    "run_report_tinyset_used": true
+  },
+  "rows_with_issues": 0,
+  "row_issues": [],
+  "row_issues_truncated": false,
+  "issues": [],
+  "limitations": [
+    "Source URLs are structurally checked, not fetched by this verifier.",
+    "A separate live spot-check must confirm dates, identity, and supporting quote accuracy."
+  ]
+}

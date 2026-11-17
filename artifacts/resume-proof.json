@@ -1,0 +1,10 @@
+{
+  "audit_id": "967f3deb-4210-4fd1-95b5-a7423b03bcbf",
+  "verified_at": "2026-11-17T11:41:09.630508+00:00",
+  "baseline_completed": 45,
+  "now_completed": 126,
+  "completed_results_unchanged": true,
+  "original_rows_unchanged": true,
+  "progress_after_resume": true,
+  "pass": true
+}

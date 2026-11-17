@@ -1,0 +1,83 @@
+{
+  "name": "Official employer public job-board sample (500 postings)",
+  "retrieval_started_at": "2026-11-17T11:37:04.653839+00:00",
+  "retrieval_finished_at": "2026-11-17T11:37:07.629575+00:00",
+  "docs_url": "https://developers.greenhouse.io/job-board.html",
+  "boards": [
+    {
+      "employer": "Stripe",
+      "board_name": "Stripe",
+      "token": "stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "final_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "metadata_url": "https://boards-api.greenhouse.io/v1/boards/stripe",
+      "metadata_final_url": "https://boards-api.greenhouse.io/v1/boards/stripe",
+      "official_careers_url": "https://stripe.com/careers",
+      "available": true,
+      "source_sha256": "dd45679f65345416da545ac2edfaaccb87ea3dbad774e11ecbfa2311516b0e47",
+      "public_job_count": 794,
+      "eligible_job_count": 794
+    },
+    {
+      "employer": "Datadog",
+      "board_name": "Datadog",
+      "token": "datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "final_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "metadata_url": "https://boards-api.greenhouse.io/v1/boards/datadog",
+      "metadata_final_url": "https://boards-api.greenhouse.io/v1/boards/datadog",
+      "official_careers_url": "https://careers.datadoghq.com/",
+      "available": true,
+      "source_sha256": "c627608dbefeac1dab68646d9c9c312831fdce6f2bf96ff52e545493d99b09fc",
+      "public_job_count": 380,
+      "eligible_job_count": 380
+    },
+    {
+      "employer": "Cloudflare",
+      "board_name": "Cloudflare",
+      "token": "cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+      "final_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+      "metadata_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare",
+      "metadata_final_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare",
+      "official_careers_url": "https://www.cloudflare.com/careers/",
+      "available": true,
+      "source_sha256": "fa73a4a940e3761ba2edaacb2f14693710a60ce61bd2ad49fbbff87c0deda8b5",
+      "public_job_count": 474,
+      "eligible_job_count": 474
+    }
+  ],
+  "available_unique_postings": 1648,
+  "exported_rows": 500,
+  "exported_employer_counts": {
+    "Stripe": 167,
+    "Datadog": 167,
+    "Cloudflare": 166
+  },
+  "fields": [
+    "employer",
+    "title",
+    "job_url",
+    "job_id",
+    "employer_website",
+    "board_url",
+    "job_api_url",
+    "source_url",
+    "listed_updated_at"
+  ],
+  "csv_sha256": "80ccf538f32120f1072bc25f246ad394152bf3c9cae8f3693fd05d74565f2d5b",
+  "selection": {
+    "method": "Round-robin per-employer SHA-256(seed:provider_token_job_id) ranking",
+    "seed": "zombie-check-job-demo-2026-11-17",
+    "filters": "Only valid public posting ID, title and URL; no age/status/intent filter"
+  },
+  "scope": [
+    "These are publicly listed postings in the employer's official ATS feed at retrieval time.",
+    "A public listing does not prove a funded vacancy, recruiter attention, applicant response, or hiring intent.",
+    "listed_updated_at is the feed's admin update timestamp, not necessarily original publish date or genuine recent hiring.",
+    "Verification must independently re-fetch each job API/page and application question/intake evidence live.",
+    "Shared employer activity must be source-checked and labeled as employer context, not job-specific activity.",
+    "No applications were submitted and no candidate information was collected.",
+    "Source descriptions are processed in memory; the distributed input contains posting facts and URLs only."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "YC B2B companies, 2019–2026: deterministic 500-row sample",
+  "source_url": "https://yc-oss.github.io/api/companies/all.json",
+  "source_repository": "https://github.com/yc-oss/api",
+  "source_documentation": "https://raw.githubusercontent.com/yc-oss/api/main/README.md",
+  "retrieved_at": "2026-11-17T10:54:43.587763+00:00",
+  "source_sha256": "46281351892c5a1d2ffbba9dde58f201c0c46ef2c4965ca00aaa5e87c3f19c0a",
+  "csv_sha256": "1c447811f8878448c92cfae9770f79cdbe8f8c3d19ab247c3e0e199afd20d749",
+  "source_company_count": 6398,
+  "eligible_company_count": 2520,
+  "exported_rows": 500,
+  "selection": {
+    "industry": "B2B",
+    "first_batch_year": 2019,
+    "last_batch_year": 2026,
+    "requires_public_website": true,
+    "rank": "SHA-256(seed:public_yc_id)",
+    "seed": "zombie-check-bounty-2026-11-17",
+    "output_order": "public YC ID ascending"
+  },
+  "exported_fields": [
+    "company",
+    "website",
+    "yc_batch",
+    "yc_id",
+    "source_url"
+  ],
+  "excluded_fields": [
+    "status",
+    "isHiring",
+    "team_size",
+    "long_description",
+    "one_liner",
+    "launched_at"
+  ],
+  "source_license": "No LICENSE file was found at repository root when checked on 2026-11-17. This export contains public factual names, URLs, batch labels and IDs only; no repository source code or company descriptions.",
+  "notes": [
+    "Source is a community maintained unofficial YC API, not an official YC status feed.",
+    "Directory data establishes the list to audit only; it must not determine any verdict.",
+    "No alive/dead, hiring, funding or latest-activity filter was used.",
+    "Raw source JSON is processed in memory and is not distributed with the demo."
+  ]
+}

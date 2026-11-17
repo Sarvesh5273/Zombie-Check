@@ -1,0 +1,247 @@
+{
+  "status": "complete",
+  "url": "https://stripe.com/jobs/search?gh_jid=8236491",
+  "checked_at": "2026-11-17T12:27:45.112766+00:00",
+  "reserved_usd": 0.1,
+  "observation": {
+    "status": "unknown",
+    "url": "https://stripe.com/jobs/search?gh_jid=8236491",
+    "method": "tinybrowser",
+    "verified": false,
+    "created": true,
+    "creation_status": "created",
+    "checked_at": "2026-11-17T12:28:07.801Z",
+    "cleanup_confirmed": true,
+    "cleanup_error": null,
+    "fields": [
+      {
+        "type": "email",
+        "name": "email",
+        "id": "newsletter-email",
+        "placeholder": "Enter work email",
+        "label": "Get industry insights and updates from Stripe",
+        "aria_label": "Enter work email",
+        "autocomplete": "email",
+        "required": false,
+        "relevant": true,
+        "visible": true,
+        "disabled": false,
+        "readOnly": false,
+        "aria_disabled": false,
+        "inert": false,
+        "enabled": true
+      }
+    ],
+    "buttons": [
+      "Continue",
+      "unsubscribe",
+      "Privacy Policy"
+    ],
+    "button_observations": [
+      {
+        "text": "Continue",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "action_kind": "continue",
+        "visible": true,
+        "disabled": false,
+        "readOnly": false,
+        "aria_disabled": false,
+        "inert": false,
+        "enabled": true
+      },
+      {
+        "text": "unsubscribe",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "action_kind": "other",
+        "visible": true,
+        "disabled": false,
+        "readOnly": false,
+        "aria_disabled": false,
+        "inert": false,
+        "enabled": true
+      },
+      {
+        "text": "Privacy Policy",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "action_kind": "other",
+        "visible": true,
+        "disabled": false,
+        "readOnly": false,
+        "aria_disabled": false,
+        "inert": false,
+        "enabled": true
+      }
+    ],
+    "form_observations": [
+      {
+        "index": 0,
+        "scope": "form",
+        "id": "",
+        "role": "",
+        "action_path": null,
+        "method": "",
+        "visible": true,
+        "local": true,
+        "account_registration": false,
+        "newsletter": false,
+        "newsletter_language": false,
+        "enabled_relevant_fields": 1,
+        "enabled_registration_actions": 1,
+        "qualifies": false,
+        "fields": [
+          {
+            "type": "email",
+            "name": "email",
+            "id": "newsletter-email",
+            "placeholder": "Enter work email",
+            "label": "Get industry insights and updates from Stripe",
+            "aria_label": "Enter work email",
+            "autocomplete": "email",
+            "required": false,
+            "relevant": true,
+            "visible": true,
+            "disabled": false,
+            "readOnly": false,
+            "aria_disabled": false,
+            "inert": false,
+            "enabled": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Continue",
+            "tag": "button",
+            "type": "button",
+            "role": "",
+            "action_kind": "continue",
+            "visible": true,
+            "disabled": false,
+            "readOnly": false,
+            "aria_disabled": false,
+            "inert": false,
+            "enabled": true
+          },
+          {
+            "text": "unsubscribe",
+            "tag": "a",
+            "type": "",
+            "role": "",
+            "action_kind": "other",
+            "visible": true,
+            "disabled": false,
+            "readOnly": false,
+            "aria_disabled": false,
+            "inert": false,
+            "enabled": true
+          },
+          {
+            "text": "Privacy Policy",
+            "tag": "a",
+            "type": "",
+            "role": "",
+            "action_kind": "other",
+            "visible": true,
+            "disabled": false,
+            "readOnly": false,
+            "aria_disabled": false,
+            "inert": false,
+            "enabled": true
+          }
+        ],
+        "text": "Get industry insights and updates from Stripe Continue Receive marketing communication from Stripe (including via automated systems) regarding product updates, industry news, and event invitations. You can unsubscribe at any time. Privacy Policy.",
+        "reason": "The local scope does not establish account registration."
+      }
+    ],
+    "form_observation": {
+      "index": 0,
+      "scope": "form",
+      "id": "",
+      "role": "",
+      "action_path": null,
+      "method": "",
+      "visible": true,
+      "local": true,
+      "account_registration": false,
+      "newsletter": false,
+      "newsletter_language": false,
+      "enabled_relevant_fields": 1,
+      "enabled_registration_actions": 1,
+      "qualifies": false,
+      "fields": [
+        {
+          "type": "email",
+          "name": "email",
+          "id": "newsletter-email",
+          "placeholder": "Enter work email",
+          "label": "Get industry insights and updates from Stripe",
+          "aria_label": "Enter work email",
+          "autocomplete": "email",
+          "required": false,
+          "relevant": true,
+          "visible": true,
+          "disabled": false,
+          "readOnly": false,
+          "aria_disabled": false,
+          "inert": false,
+          "enabled": true
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Continue",
+          "tag": "button",
+          "type": "button",
+          "role": "",
+          "action_kind": "continue",
+          "visible": true,
+          "disabled": false,
+          "readOnly": false,
+          "aria_disabled": false,
+          "inert": false,
+          "enabled": true
+        },
+        {
+          "text": "unsubscribe",
+          "tag": "a",
+          "type": "",
+          "role": "",
+          "action_kind": "other",
+          "visible": true,
+          "disabled": false,
+          "readOnly": false,
+          "aria_disabled": false,
+          "inert": false,
+          "enabled": true
+        },
+        {
+          "text": "Privacy Policy",
+          "tag": "a",
+          "type": "",
+          "role": "",
+          "action_kind": "other",
+          "visible": true,
+          "disabled": false,
+          "readOnly": false,
+          "aria_disabled": false,
+          "inert": false,
+          "enabled": true
+        }
+      ],
+      "text": "Get industry insights and updates from Stripe Continue Receive marketing communication from Stripe (including via automated systems) regarding product updates, industry news, and event invitations. You can unsubscribe at any time. Privacy Policy.",
+      "reason": "The local scope does not establish account registration."
+    },
+    "note": "The local scope does not establish account registration. No fields filled and no form submitted.",
+    "session_id": "tf-47e8704c-3e84-45a1-989c-3082fc929486",
+    "final_url": "https://stripe.com/careers/listing/specialist-solutions-architect-crypto/8236491?gh_jid=8236491",
+    "title": "Stripe Careers | Specialist Solutions Architect, Crypto",
+    "text": "Get industry insights and updates from Stripe Continue Receive marketing communication from Stripe (including via automated systems) regarding product updates, industry news, and event invitations. You can unsubscribe at any time. Privacy Policy."
+  },
+  "verified": false,
+  "note": "Browser visited the original role URL; only the newsletter form was observed. Role-specific rendered intake remains unverified; ATS question configuration was checked separately. No form submitted."
+}

@@ -1,0 +1,32 @@
+{
+  "generated_on": "2026-11-17",
+  "overall_build_ceiling_usd": 5,
+  "audit_allocations": [
+    {
+      "id": "967f3deb-4210-4fd1-95b5-a7423b03bcbf",
+      "name": "YC 500 \u2014 live bounty audit",
+      "budget": 2.5,
+      "reserved": 0.2,
+      "api_reserved": 2.425999999999964
+    },
+    {
+      "id": "857949de-0d18-4951-9598-cef63cba4e55",
+      "name": "500 official job posts \u2014 live bounty proof",
+      "budget": 1.6,
+      "reserved": 0.3,
+      "api_reserved": 1.2469999999999992
+    },
+    {
+      "id": "37a7d660-7c0b-4b0b-aee7-56b00422c6ab",
+      "name": "Independent mapped Figma job pilot",
+      "budget": 0.2,
+      "reserved": 0.1,
+      "api_reserved": 0.015000000000000001
+    }
+  ],
+  "audit_allocations_total_usd": 4.288,
+  "separate_initial_tinyset_pilot_usd": 0.3,
+  "conservative_build_total_usd": 4.588,
+  "billing_scope": "Conservative audit reservations plus initial pilot, not settled invoice or wallet delta. Setup/docs MCP Search/Fetch used the available free allowance; other bounty usage excluded.",
+  "remaining_ceiling_usd": 0.412
+}

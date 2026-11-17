@@ -1,0 +1,501 @@
+{
+  "generated_at": "2026-11-17T12:40:02.250Z",
+  "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+  "mode": "read-only real audit UI",
+  "screenshots": [
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-desktop-welcome.png",
+      "width": 1440,
+      "height": 1080,
+      "time": "2026-11-17T12:40:03.260Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-desktop-ledger.png",
+      "width": 1440,
+      "height": 1080,
+      "status": "complete",
+      "counts": {
+        "done": 500
+      },
+      "audit_mode": "jobs",
+      "time": "2026-11-17T12:40:03.461Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-desktop-reviews.png",
+      "width": 1440,
+      "height": 1080,
+      "status": "complete",
+      "counts": {
+        "done": 500
+      },
+      "audit_mode": "jobs",
+      "time": "2026-11-17T12:40:03.554Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-desktop-evidence.png",
+      "width": 1440,
+      "height": 1080,
+      "status": "complete",
+      "counts": {
+        "done": 500
+      },
+      "audit_mode": "jobs",
+      "time": "2026-11-17T12:40:03.626Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-desktop-report.png",
+      "width": 1440,
+      "height": 1080,
+      "status": "complete",
+      "counts": {
+        "done": 500
+      },
+      "audit_mode": "jobs",
+      "time": "2026-11-17T12:40:03.750Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-desktop-import-preview.png",
+      "width": 1440,
+      "height": 1080,
+      "time": "2026-11-17T12:40:03.861Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-mobile-ledger.png",
+      "width": 390,
+      "height": 844,
+      "status": "complete",
+      "counts": {
+        "done": 500
+      },
+      "audit_mode": "jobs",
+      "time": "2026-11-17T12:40:04.212Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-mobile-evidence.png",
+      "width": 390,
+      "height": 844,
+      "status": "complete",
+      "counts": {
+        "done": 500
+      },
+      "audit_mode": "jobs",
+      "time": "2026-11-17T12:40:04.275Z"
+    },
+    {
+      "path": "/Users/sarvesh/Dev/Zombie check/demo/assets/ui-mobile-welcome.png",
+      "width": 390,
+      "height": 844,
+      "time": "2026-11-17T12:40:04.324Z"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Server configuration loaded",
+      "passed": true,
+      "detail": "Read-only local config endpoint."
+    },
+    {
+      "name": "Desktop welcome fits viewport",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "document_width": 1440,
+        "body_width": 1440
+      }
+    },
+    {
+      "name": "Real ledger loads every original row (500+)",
+      "passed": true,
+      "detail": {
+        "id": "857949de-0d18-4951-9598-cef63cba4e55",
+        "total": 500,
+        "loaded": 500,
+        "rendered": 25
+      }
+    },
+    {
+      "name": "Table renders a bounded page",
+      "passed": true,
+      "detail": 25
+    },
+    {
+      "name": "Desktop ledger fits viewport",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "document_width": 1440,
+        "body_width": 1440
+      }
+    },
+    {
+      "name": "Review filter matches actual rows",
+      "passed": true,
+      "detail": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "Evidence drawer shows five signals",
+      "passed": true,
+      "detail": {
+        "id": "R000001",
+        "cards": 5,
+        "focus": "closeDrawer"
+      }
+    },
+    {
+      "name": "Drawer receives keyboard focus",
+      "passed": true,
+      "detail": "closeDrawer"
+    },
+    {
+      "name": "Job mode uses exact-listing and intake labels",
+      "passed": true,
+      "detail": [
+        "▧\nEmployer news",
+        "⤴\nEmployer releases",
+        "▢\nExact job listing",
+        "◉\nEmployer activity",
+        "↪\nApplication intake"
+      ]
+    },
+    {
+      "name": "Job identity is described as posting identity",
+      "passed": true,
+      "detail": {
+        "jobs": true,
+        "labels": [
+          "▧\nEmployer news",
+          "⤴\nEmployer releases",
+          "▢\nExact job listing",
+          "◉\nEmployer activity",
+          "↪\nApplication intake"
+        ],
+        "postingIdentity": true,
+        "limit": "Job-post mode. Alive verifies that the current listing and its application intake are available. It does not establish a funded vacancy or completed hiring."
+      }
+    },
+    {
+      "name": "Job alive limitation is visible",
+      "passed": true,
+      "detail": "Job-post mode. Alive verifies that the current listing and its application intake are available. It does not establish a funded vacancy or completed hiring."
+    },
+    {
+      "name": "Report reflects its actual completion gates",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "ready": true,
+        "heading": "The run’s completion gates passed.\nInspect the source evidence and the remaining submission requirements before submitting."
+      }
+    },
+    {
+      "name": "CSV preview opens without creating audit",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "rows": 500
+      }
+    },
+    {
+      "name": "CSV mapping includes actual row examples",
+      "passed": true,
+      "detail": {
+        "mode": "jobs",
+        "selected": {
+          "title": 1,
+          "job_url": 2,
+          "employer": 0,
+          "employer_website": 4,
+          "board_token": null,
+          "job_id": 3,
+          "job_api_url": 6
+        },
+        "problems": {},
+        "nameHelp": "Preview: Specialist Solutions Architect, Crypto · Commercial Account Executive",
+        "urlHelp": "Preview: https://stripe.com/jobs/search?gh_jid=8236491 · https://careers.datadoghq.com/detail/6512321/?gh_jid=6512321"
+      }
+    },
+    {
+      "name": "Job CSV auto detection and employer mapping are valid",
+      "passed": true,
+      "detail": {
+        "mode": "jobs",
+        "selected": {
+          "title": 1,
+          "job_url": 2,
+          "employer": 0,
+          "employer_website": 4,
+          "board_token": null,
+          "job_id": 3,
+          "job_api_url": 6
+        },
+        "problems": {},
+        "nameHelp": "Preview: Specialist Solutions Architect, Crypto · Commercial Account Executive",
+        "urlHelp": "Preview: https://stripe.com/jobs/search?gh_jid=8236491 · https://careers.datadoghq.com/detail/6512321/?gh_jid=6512321"
+      }
+    },
+    {
+      "name": "Invalid mapping gets focused summary and inline error without losing CSV",
+      "passed": true,
+      "detail": {
+        "focused": "importErrorSummary",
+        "error": "Choose the employer name column so the exact posting can be linked to its employer.",
+        "invalid": "true",
+        "summary": true,
+        "csv_retained": true
+      }
+    },
+    {
+      "name": "Mobile viewport is exactly390px",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "document_width": 390,
+        "body_width": 390
+      }
+    },
+    {
+      "name": "Mobile ledger fits viewport",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "document_width": 390,
+        "body_width": 390
+      }
+    },
+    {
+      "name": "Mobile drawer fits viewport",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "left": 0,
+        "right": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "No audit mutations attempted",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No browser runtime exceptions",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "blocked_mutations": [],
+  "cleanup_confirmed": true,
+  "mobile_diagnostic": {
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "visual": 390,
+    "scale": 1,
+    "overflows": [
+      {
+        "tag": "TABLE",
+        "id": "",
+        "class": "results-table",
+        "right": 932.28125,
+        "width": 914.28125,
+        "overflow": "visible"
+      },
+      {
+        "tag": "THEAD",
+        "id": "resultsHead",
+        "class": "",
+        "right": 932.28125,
+        "width": 914.28125,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "right": 932.28125,
+        "width": 914.28125,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "right": 407.453125,
+        "width": 348,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "right": 517.96875,
+        "width": 110.515625,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "right": 633.75,
+        "width": 115.78125,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "right": 731.171875,
+        "width": 97.421875,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "right": 811.859375,
+        "width": 80.6875,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "right": 897.046875,
+        "width": 85.1875,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TH",
+        "id": "",
+        "class": "",
+        "right": 932.28125,
+        "width": 35.234375,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TBODY",
+        "id": "resultsBody",
+        "class": "",
+        "right": 932.28125,
+        "width": 914.28125,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TR",
+        "id": "",
+        "class": "",
+        "right": 932.28125,
+        "width": 914.28125,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "right": 407.453125,
+        "width": 348,
+        "overflow": "visible"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "company-cell job-title-cell",
+        "right": 395.453125,
+        "width": 324,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "right": 517.96875,
+        "width": 110.515625,
+        "overflow": "visible"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "pill pill-alive",
+        "right": 466.703125,
+        "width": 47.25,
+        "overflow": "visible"
+      },
+      {
+        "tag": "I",
+        "id": "",
+        "class": "dot green",
+        "right": 432.453125,
+        "width": 5,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "date-cell",
+        "right": 633.75,
+        "width": 115.78125,
+        "overflow": "visible"
+      },
+      {
+        "tag": "TD",
+        "id": "",
+        "class": "",
+        "right": 731.171875,
+        "width": 97.421875,
+        "overflow": "visible"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "signal-dots",
+        "right": 719.171875,
+        "width": 73.421875,
+        "overflow": "visible"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "signal-indicator active",
+        "right": 651.75,
+        "width": 6,
+        "overflow": "visible"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "signal-indicator active",
+        "right": 662.75,
+        "width": 6,
+        "overflow": "visible"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "signal-indicator active",
+        "right": 673.75,
+        "width": 6,
+        "overflow": "visible"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "signal-indicator active",
+        "right": 684.75,
+        "width": 6,
+        "overflow": "visible"
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "signal-indicator active",
+        "right": 695.75,
+        "width": 6,
+        "overflow": "visible"
+      }
+    ]
+  },
+  "passed": true
+}

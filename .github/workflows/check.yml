@@ -1,0 +1,18 @@
+name: Verify Zombie Check
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Offline regression suite
+        run: python3 -m unittest discover -q
+      - name: JavaScript syntax
+        run: |
+          node --check web/app.js
+          node --check scripts/browser_signup.mjs
+      - name: Verify recorded real export
+        run: |
+          python3 scripts/verify_export.py --input examples/jobs-500.csv --output artifacts/jobs-audited.csv --report artifacts/jobs-run-report.json

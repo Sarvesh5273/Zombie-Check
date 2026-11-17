@@ -1,0 +1,31 @@
+<!doctype html><html><body><template><style>
+@font-face{font-family:"ZC Inter";src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"ZC Inter";src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700}
+*{box-sizing:border-box}#root{position:absolute;inset:0;overflow:hidden;background:#f8f8f2;color:#202820;font-family:"ZC Inter",sans-serif}
+.scene-shell{position:absolute;inset:0}.step{position:absolute;left:192px;top:88px;font-size:28px;font-weight:700;letter-spacing:2px;color:#5a6c44}
+.title{position:absolute;left:192px;top:137px;right:192px;margin:0;font-size:72px;line-height:1.08;letter-spacing:-2.8px;font-weight:700}
+.subtitle{position:absolute;left:192px;top:235px;right:192px;margin:0;font-size:30px;line-height:1.4;color:#536149}
+.viewport{position:absolute;left:192px;top:315px;width:1536px;height:580px;overflow:hidden;border:2px solid #d9e3c9;border-radius:14px;background:#edf2df}
+.world{position:absolute;left:0;top:0;width:1440px;height:1080px;transform-origin:0 0;will-change:transform}
+.world img{display:block;width:1440px;height:1080px}
+.disclosure{position:absolute;left:192px;top:930px;margin:0;font-size:32px;line-height:1.2;letter-spacing:.4px;color:#667254}
+.proof-panel{position:absolute;left:192px;top:325px;width:1536px;height:555px;border:2px solid #dce7ca;border-radius:14px;background:#fff;padding:46px}
+.proof-head{font-size:30px;color:#5f7147;margin:0 0 30px;font-weight:700}
+.fact{font-size:58px;line-height:1.16;font-weight:700;letter-spacing:-1.8px;margin:0 0 22px}
+.proof-note{font-size:28px;line-height:1.45;color:#536149;margin:0}
+.export-table{border-collapse:collapse;width:100%;font-size:28px;text-align:left}
+.export-table th{color:#5f7147;font-weight:700;padding:18px 12px;background:#f2f7e7;border-bottom:2px solid #e0e8d5}
+.export-table td{padding:19px 12px;border-bottom:1px solid #e5ecda;vertical-align:top;color:#46533c;line-height:1.35}
+.export-table td:first-child{width:46%}.export-table td:last-child{width:23%}.export-table tr:last-child td{border-bottom:0}
+.final-line{position:absolute;left:192px;top:885px;font-size:37px;font-weight:700;letter-spacing:-.8px;margin:0}
+</style>
+      <div id="root" data-composition-id="proof" data-width="1920" data-height="1080" data-duration="4">
+      <div class="scene-shell"><div class="step">PROOF / RECORDED RUN</div>
+      <h1 id="proof-title" class="title">500 job posts. Every row checked.</h1>
+      <p id="proof-subtitle" class="subtitle">A real completed run — evidence stays attached.</p><div class="viewport" data-layout-allow-overflow="true"><div id="proof-world" class="world"><img id="proof-shot" src="assets/ui-desktop-ledger.png" alt="Actual recorded Zombie Check interface"></div></div>
+      <p class="disclosure" data-hold="true">Walkthrough of recorded audit • Counts are saved results</p>
+      </div></div><script>
+      const tl=gsap.timeline({paused:true});
+      tl.fromTo("#proof-title",{x:70,opacity:0},{x:0,opacity:1,duration:.6,ease:"power3.out"},.05);
+      tl.fromTo("#proof-subtitle",{opacity:0},{opacity:1,duration:.5,ease:"power2.out"},.42);
+    tl.fromTo("#proof-world",{x:-130,y:-245,scale:1.2},{x:-280,y:-315,scale:1.42,duration:2.3,ease:"power2.inOut"},.7);window.__timelines["proof"]=tl;</script></template></body></html>

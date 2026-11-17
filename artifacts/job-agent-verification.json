@@ -1,0 +1,94 @@
+{
+  "verified_at": "2026-11-17T12:16:44Z",
+  "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+  "scope": "Read-only rendered application form inspection. No fields filled, application submitted or candidate information collected.",
+  "result": {
+    "runId": "1524ee02-19a4-4b69-ad60-d98bb7bf70a5",
+    "status": "completed",
+    "runUrl": "https://agent.tinyfish.ai/runs/1524ee02-19a4-4b69-ad60-d98bb7bf70a5",
+    "result": {
+      "posting_id": "6009779",
+      "employer": "Datadog",
+      "title": "Customer Success Associate",
+      "final_url": "https://careers.datadoghq.com/ja/detail/6009779/?gh_jid=6009779",
+      "application_form_visible": true,
+      "application_fields": [
+        {
+          "label": "名",
+          "type": "text"
+        },
+        {
+          "label": "姓",
+          "type": "text"
+        },
+        {
+          "label": "希望名",
+          "type": "text"
+        },
+        {
+          "label": "電子メール",
+          "type": "text"
+        },
+        {
+          "label": "国",
+          "type": "combobox"
+        },
+        {
+          "label": "電話",
+          "type": "tel"
+        },
+        {
+          "label": "履歴書/CV",
+          "type": "file_upload"
+        },
+        {
+          "label": "LinkedIn Profile",
+          "type": "text"
+        },
+        {
+          "label": "Website",
+          "type": "text"
+        },
+        {
+          "label": "I certify that the information provided in this application is true and correct to the best of my knowledge...",
+          "type": "combobox"
+        },
+        {
+          "label": "I understand my application will be processed in accordance with Datadog's Candidate Privacy Policy...",
+          "type": "combobox"
+        },
+        {
+          "label": "Are you legally authorised to work full-time in the country where this job is based?",
+          "type": "combobox"
+        },
+        {
+          "label": "In what cities are you available to work?",
+          "type": "combobox"
+        },
+        {
+          "label": "Please select all the languages you speak fluently.",
+          "type": "combobox"
+        },
+        {
+          "label": "How did you hear about this opportunity?",
+          "type": "combobox"
+        },
+        {
+          "label": "性自認を1つ選んでください",
+          "type": "combobox"
+        },
+        {
+          "label": "このボックスをチェックすることにより、私は上記の人口統計データ調査に対する私の回答をDatadogが収集、保存、処理することに同意します。",
+          "type": "checkbox"
+        }
+      ],
+      "application_entry_url": "https://careers.datadoghq.com/ja/detail/6009779/?gh_jid=6009779",
+      "exact_short_supporting_text": "Tokyo, Japan",
+      "blockage": "None"
+    }
+  },
+  "started_at": "2026-11-17T12:13:31Z",
+  "finished_at": "2026-11-17T12:14:15Z",
+  "actual_steps": 6,
+  "contract_cost_usd": 0.096
+}

@@ -1,0 +1,70 @@
+{
+  "audit_id": "857949de-0d18-4951-9598-cef63cba4e55",
+  "name": "500 official job posts \u2014 live bounty proof",
+  "created_at": "2026-11-17T11:44:30.969646+00:00",
+  "generated_at": "2026-11-17T12:47:28.064227+00:00",
+  "input_sha256": "80ccf538f32120f1072bc25f246ad394152bf3c9cae8f3693fd05d74565f2d5b",
+  "input_rows": 500,
+  "output_rows": 500,
+  "counts": {
+    "done": 500
+  },
+  "verdicts": {
+    "alive": 340,
+    "slowing down": 160
+  },
+  "status": "complete",
+  "paid_budget_usd": 1.6,
+  "reserved_usd": 0.3,
+  "request_budget_usd": 1.6,
+  "api_request_upper_bound_usd": 1.2469999999999992,
+  "mode": "jobs",
+  "tinyset_employers_researched": 3,
+  "gates": {
+    "at_least_500_rows": true,
+    "all_rows_have_verdicts": true,
+    "four_live_checks_every_row": true,
+    "no_unresolved_reviews": true,
+    "every_verdict_has_evidence": true,
+    "tinyset_used": true,
+    "original_rows_preserved": true
+  },
+  "submission_ready": true,
+  "services": [
+    {
+      "service": "agent",
+      "requests": 2,
+      "units": 6
+    },
+    {
+      "service": "browser",
+      "requests": 1,
+      "units": 1
+    },
+    {
+      "service": "fetch",
+      "requests": 523,
+      "units": 1032
+    },
+    {
+      "service": "search",
+      "requests": 6,
+      "units": 6
+    },
+    {
+      "service": "tinyset",
+      "requests": 3,
+      "units": 5
+    }
+  ],
+  "notes": [
+    "TinyFetch calls used ttl=0. Saved snapshots are reused within this audit only for resume.",
+    "Job intake checks establish public ATS question configuration and record rendered-page scope separately. No applications were submitted; genuine vacancy intent and backend acceptance are unverified.",
+    "TinySet researches each unique employer once; those sourced context signals are joined to its distinct roles. Each role gets independent live availability and intake checks."
+  ],
+  "verified_signal_distribution": {
+    "4": 333,
+    "5": 167
+  },
+  "all_rows_have_four_verified_signal_observations": true
+}
